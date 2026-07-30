@@ -1,0 +1,12 @@
+[
+  {
+    "event_name": "explore_events_clicked",
+    "event_description": "User clicks the 'Explore Events' button on the home page to scroll to the events list.",
+    "file": "components/ExploreBtn.tsx"
+  },
+  {
+    "event_name": "event_card_clicked",
+    "event_description": "User clicks an event card to navigate to the event detail page.",
+    "file": "components/EventCard.tsx"
+  }
+]
