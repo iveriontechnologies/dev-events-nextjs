@@ -90,7 +90,7 @@ function toConsistentTime(value: string): string {
     const minutes = match[2] ? Number(match[2]) : 0;
     const period = match[3]?.toLowerCase();
 
-    if (minutes > 59 || hours > 12) {
+    if (minutes > 59 || (period ? hours > 12 : hours > 23)) {
         throw new Error('Invalid time format');
     }
 
